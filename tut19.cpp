@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int add(int a , int b){
+    cout<<"Using function with 2 arguments"<<endl;
+    return a+b;
+}
+
+int add(int a , int b , int c){
+    cout<<"Using function with 3 arguments"<<endl;
+    return a+b+c;
+}
+int main() {
+
+    cout<<"The sum of 3 and 5 is " <<add(3,5)<<endl;
+    cout<<"The sum of 3, 5 and 7 is " <<add(3,5,7)<<endl;
+
+return 0;
+}
